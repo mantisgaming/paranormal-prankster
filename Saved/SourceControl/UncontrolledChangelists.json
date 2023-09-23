@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/_Data/School/2023-2024 (WPI Freshman)/IGDA/Game Jam 1/paranormal_prankster/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/_Data/School/2023-2024 (WPI Freshman)/IGDA/Game Jam 1/paranormal_prankster/Content/Levels/MechanicDev.umap",
+				"D:/_Data/School/2023-2024 (WPI Freshman)/IGDA/Game Jam 1/paranormal_prankster/Content/Levels/MechanicDev_BuiltData.uasset"
+			]
+		}
+	]
+}
