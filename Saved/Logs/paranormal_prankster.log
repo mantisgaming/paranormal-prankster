@@ -3259,3 +3259,848 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.09.24-19.42.57:821][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
 [2023.09.24-19.42.57:827][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
 [2023.09.24-19.42.57:883][482]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.09.24-19.43.38:523][162]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.24-19.43.38:527][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.24-19.43.38:527][162]PIE: New page: PIE session: MainLevel (Sep 24, 2023, 11:43:38 AM)
+[2023.09.24-19.43.38:527][162]LogPlayLevel: Display: Creating online subsystem for client :Context_55
+[2023.09.24-19.43.38:528][162]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.09.24-19.43.38:540][163]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2023.09.24-19.43.38:542][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001811s)
+[2023.09.24-19.43.38:542][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.001850s)
+[2023.09.24-19.43.38:554][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.24-19.43.38:556][163]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.24-19.43.38:557][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.24-19.43.38:557][163]LogAIModule: Creating AISystem for world MainLevel
+[2023.09.24-19.43.38:557][163]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2023.09.24-19.43.38:557][163]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.24-19.43.38:557][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.24-19.43.38:557][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.24-19.43.38:558][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.24-19.43.38:558][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.24-19.43.38:558][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.24-19.43.38:560][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.24-19.43.38:582][163]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.09.24-19.43.38:582][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.24-19.43.38:583][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.24-19.43.38:583][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.24-19.43.38:583][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.09.24-19.43.38:583][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.09.24-19.43.38:585][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.09.24-19.43.38:585][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.09.24-19.43.38:585][163]LogInit: FAudioDevice initialized with ID 26.
+[2023.09.24-19.43.38:585][163]LogAudio: Display: Audio Device (ID: 26) registered with world 'MainLevel'.
+[2023.09.24-19.43.38:585][163]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2023.09.24-19.43.38:587][163]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.24-19.43.38:588][163]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2023.09.24-15.43.38
+[2023.09.24-19.43.38:588][163]LogWorld: Bringing up level for play took: 0.000570
+[2023.09.24-19.43.38:590][163]PIE: Server logged in
+[2023.09.24-19.43.38:591][163]PIE: Play in editor total start time 0.063 seconds.
+[2023.09.24-19.43.53:412][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.24-19.43.53:412][ 45]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2023.09.24-19.43.53:412][ 45]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2023.09.24-19.43.53:412][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.24-19.43.53:416][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.24-19.43.53:420][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.24-19.43.53:429][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.24-19.43.53:429][ 45]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2023.09.24-19.43.53:429][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.09.24-19.43.53:430][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.09.24-19.43.53:437][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.09.24-19.43.53:485][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.09.24-19.43.55:941][194]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.24-19.43.55:947][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.24-19.43.55:947][194]PIE: New page: PIE session: MainLevel (Sep 24, 2023, 11:43:55 AM)
+[2023.09.24-19.43.55:947][194]LogPlayLevel: Display: Creating online subsystem for client :Context_56
+[2023.09.24-19.43.55:949][194]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.09.24-19.43.55:958][195]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2023.09.24-19.43.55:959][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001641s)
+[2023.09.24-19.43.55:959][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.001677s)
+[2023.09.24-19.43.55:970][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.09.24-19.43.55:972][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.24-19.43.55:972][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.24-19.43.55:972][195]LogAIModule: Creating AISystem for world MainLevel
+[2023.09.24-19.43.55:973][195]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2023.09.24-19.43.55:973][195]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.24-19.43.55:973][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.24-19.43.55:973][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.24-19.43.55:973][195]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.24-19.43.55:973][195]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.24-19.43.55:973][195]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.24-19.43.55:975][195]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.24-19.43.55:995][195]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.09.24-19.43.55:995][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.24-19.43.55:995][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.24-19.43.55:995][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.24-19.43.55:995][195]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.09.24-19.43.55:995][195]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.09.24-19.43.55:997][195]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.09.24-19.43.55:997][195]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.09.24-19.43.55:997][195]LogInit: FAudioDevice initialized with ID 27.
+[2023.09.24-19.43.55:997][195]LogAudio: Display: Audio Device (ID: 27) registered with world 'MainLevel'.
+[2023.09.24-19.43.55:997][195]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2023.09.24-19.43.56:000][195]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.24-19.43.56:000][195]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2023.09.24-15.43.56
+[2023.09.24-19.43.56:000][195]LogWorld: Bringing up level for play took: 0.000585
+[2023.09.24-19.43.56:002][195]PIE: Server logged in
+[2023.09.24-19.43.56:003][195]PIE: Play in editor total start time 0.056 seconds.
+[2023.09.24-19.44.08:221][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.24-19.44.08:222][921]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2023.09.24-19.44.08:222][921]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2023.09.24-19.44.08:222][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.24-19.44.08:226][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.24-19.44.08:229][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.24-19.44.08:240][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.24-19.44.08:240][921]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2023.09.24-19.44.08:240][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.09.24-19.44.08:244][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.09.24-19.44.08:249][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.09.24-19.44.08:298][923]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.09.24-19.44.42:881][131]LogEditorViewport: Clicking Background
+[2023.09.24-19.44.44:291][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.24-19.44.44:367][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.09.24-19.44.44:375][202]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2023.09.24-19.44.44:376][202]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/MainLevel50B879E94662F09CC6959CA7E673430C.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Levels/MainLevel.umap'
+[2023.09.24-19.44.44:380][202]LogFileHelpers: All files are already saved.
+[2023.09.24-19.44.44:380][202]LogFileHelpers: Saving map 'MainLevel' took 0.034
+[2023.09.24-19.44.44:387][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 2.56 sec)
+[2023.09.24-19.44.44:388][202]AssetCheck: New page: Asset Save: MainLevel
+[2023.09.24-19.44.44:388][202]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2023.09.24-19.45.28:486][299]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.24-19.45.28:490][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.24-19.45.28:490][299]PIE: New page: PIE session: MainLevel (Sep 24, 2023, 11:45:28 AM)
+[2023.09.24-19.45.28:490][299]LogPlayLevel: Display: Creating online subsystem for client :Context_57
+[2023.09.24-19.45.28:493][299]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.09.24-19.45.28:503][300]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2023.09.24-19.45.28:505][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001764s)
+[2023.09.24-19.45.28:505][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.001804s)
+[2023.09.24-19.45.28:516][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.09.24-19.45.28:518][300]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.24-19.45.28:518][300]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.24-19.45.28:518][300]LogAIModule: Creating AISystem for world MainLevel
+[2023.09.24-19.45.28:519][300]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2023.09.24-19.45.28:519][300]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.24-19.45.28:519][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.24-19.45.28:519][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.24-19.45.28:519][300]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.24-19.45.28:519][300]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.24-19.45.28:519][300]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.24-19.45.28:522][300]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.24-19.45.28:544][300]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.09.24-19.45.28:544][300]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.24-19.45.28:544][300]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.24-19.45.28:544][300]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.24-19.45.28:544][300]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.09.24-19.45.28:545][300]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.09.24-19.45.28:546][300]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.09.24-19.45.28:546][300]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.09.24-19.45.28:546][300]LogInit: FAudioDevice initialized with ID 28.
+[2023.09.24-19.45.28:546][300]LogAudio: Display: Audio Device (ID: 28) registered with world 'MainLevel'.
+[2023.09.24-19.45.28:546][300]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2023.09.24-19.45.28:549][300]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.24-19.45.28:550][300]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2023.09.24-15.45.28
+[2023.09.24-19.45.28:550][300]LogWorld: Bringing up level for play took: 0.000702
+[2023.09.24-19.45.28:552][300]PIE: Server logged in
+[2023.09.24-19.45.28:552][300]PIE: Play in editor total start time 0.062 seconds.
+[2023.09.24-19.45.31:701][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.24-19.45.31:701][483]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2023.09.24-19.45.31:701][483]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2023.09.24-19.45.31:701][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.24-19.45.31:705][483]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.24-19.45.31:708][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.24-19.45.31:721][483]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.24-19.45.31:721][483]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2023.09.24-19.45.31:721][483]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.09.24-19.45.31:724][483]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.09.24-19.45.31:726][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.24-19.45.31:728][483]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.09.24-19.45.31:778][486]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.09.24-19.45.35:721][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.24-19.46.21:908][604]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jante/Downloads/Kitchen.fbx)
+[2023.09.24-19.46.21:937][604]LogFbx: Loading FBX Scene from ../../../../../../Users/Jante/Downloads/Kitchen.fbx
+[2023.09.24-19.46.21:951][604]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.24-19.46.28:500][604]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.09.24-19.46.28:655][604]LogStaticMesh: Display: Building static mesh Kitchen_Island...
+[2023.09.24-19.46.28:659][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Island.Kitchen_Island
+[2023.09.24-19.46.28:660][604]LogStaticMesh: Warning: Kitchen_Island has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:660][604]LogStaticMesh: Warning: Kitchen_Island has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:674][604]LogFbx: Display: Triangulating static mesh Stool 1
+[2023.09.24-19.46.28:677][604]LogStaticMesh: Display: Building static mesh Kitchen_Stool_1...
+[2023.09.24-19.46.28:679][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Stool_1.Kitchen_Stool_1
+[2023.09.24-19.46.28:680][604]LogStaticMesh: Warning: Kitchen_Stool_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:680][604]LogStaticMesh: Warning: Kitchen_Stool_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:690][604]LogFbx: Display: Triangulating static mesh Ceiling
+[2023.09.24-19.46.28:691][604]LogStaticMesh: Display: Building static mesh Kitchen_Ceiling...
+[2023.09.24-19.46.28:693][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Ceiling.Kitchen_Ceiling
+[2023.09.24-19.46.28:693][604]LogStaticMesh: Warning: Kitchen_Ceiling has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:693][604]LogStaticMesh: Warning: Kitchen_Ceiling has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:700][604]LogFbx: Display: Triangulating static mesh Floor
+[2023.09.24-19.46.28:701][604]LogStaticMesh: Display: Building static mesh Kitchen_Floor...
+[2023.09.24-19.46.28:702][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Floor.Kitchen_Floor
+[2023.09.24-19.46.28:710][604]LogStaticMesh: Display: Building static mesh Kitchen_Back_Wall...
+[2023.09.24-19.46.28:712][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Back_Wall.Kitchen_Back_Wall
+[2023.09.24-19.46.28:712][604]LogStaticMesh: Warning: Kitchen_Back_Wall has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:712][604]LogStaticMesh: Warning: Kitchen_Back_Wall has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:716][604]LogStaticMesh: Display: Building static mesh Kitchen_Counter...
+[2023.09.24-19.46.28:720][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Counter.Kitchen_Counter
+[2023.09.24-19.46.28:720][604]LogStaticMesh: Warning: Kitchen_Counter has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:720][604]LogStaticMesh: Warning: Kitchen_Counter has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:728][604]LogStaticMesh: Display: Building static mesh Kitchen_Left_Wall...
+[2023.09.24-19.46.28:729][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Left_Wall.Kitchen_Left_Wall
+[2023.09.24-19.46.28:737][604]LogStaticMesh: Display: Building static mesh Kitchen_Stool_2...
+[2023.09.24-19.46.28:739][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Stool_2.Kitchen_Stool_2
+[2023.09.24-19.46.28:739][604]LogStaticMesh: Warning: Kitchen_Stool_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:739][604]LogStaticMesh: Warning: Kitchen_Stool_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:747][604]LogStaticMesh: Display: Building static mesh Kitchen_Stool_3...
+[2023.09.24-19.46.28:749][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Stool_3.Kitchen_Stool_3
+[2023.09.24-19.46.28:749][604]LogStaticMesh: Warning: Kitchen_Stool_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:749][604]LogStaticMesh: Warning: Kitchen_Stool_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:760][604]LogStaticMesh: Display: Building static mesh Kitchen_Door...
+[2023.09.24-19.46.28:763][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Door.Kitchen_Door
+[2023.09.24-19.46.28:763][604]LogStaticMesh: Warning: Kitchen_Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:763][604]LogStaticMesh: Warning: Kitchen_Door has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:770][604]LogFbx: Display: Triangulating static mesh Window 1
+[2023.09.24-19.46.28:771][604]LogStaticMesh: Display: Building static mesh Kitchen_Window_1...
+[2023.09.24-19.46.28:773][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Window_1.Kitchen_Window_1
+[2023.09.24-19.46.28:773][604]LogStaticMesh: Warning: Kitchen_Window_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:773][604]LogStaticMesh: Warning: Kitchen_Window_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:778][604]LogStaticMesh: Display: Building static mesh Kitchen_Window_2...
+[2023.09.24-19.46.28:779][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Window_2.Kitchen_Window_2
+[2023.09.24-19.46.28:780][604]LogStaticMesh: Warning: Kitchen_Window_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:780][604]LogStaticMesh: Warning: Kitchen_Window_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:785][604]LogStaticMesh: Display: Building static mesh Kitchen_Window_3...
+[2023.09.24-19.46.28:786][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Window_3.Kitchen_Window_3
+[2023.09.24-19.46.28:786][604]LogStaticMesh: Warning: Kitchen_Window_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:786][604]LogStaticMesh: Warning: Kitchen_Window_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:790][604]LogStaticMesh: Display: Building static mesh Kitchen_Window_4...
+[2023.09.24-19.46.28:792][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Window_4.Kitchen_Window_4
+[2023.09.24-19.46.28:796][604]LogFbx: Display: Triangulating static mesh Faucet
+[2023.09.24-19.46.28:798][604]LogStaticMesh: Display: Building static mesh Kitchen_Faucet...
+[2023.09.24-19.46.28:800][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Faucet.Kitchen_Faucet
+[2023.09.24-19.46.28:807][604]LogFbx: Display: Triangulating static mesh Faucet Handle
+[2023.09.24-19.46.28:808][604]LogStaticMesh: Display: Building static mesh Kitchen_Faucet_Handle...
+[2023.09.24-19.46.28:810][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Faucet_Handle.Kitchen_Faucet_Handle
+[2023.09.24-19.46.28:825][604]LogFbx: Display: Triangulating static mesh Light 1
+[2023.09.24-19.46.28:826][604]LogStaticMesh: Display: Building static mesh Kitchen_Light_1...
+[2023.09.24-19.46.28:828][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Light_1.Kitchen_Light_1
+[2023.09.24-19.46.28:828][604]LogStaticMesh: Warning: Kitchen_Light_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:828][604]LogStaticMesh: Warning: Kitchen_Light_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:837][604]LogStaticMesh: Display: Building static mesh Kitchen_Light_2...
+[2023.09.24-19.46.28:839][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Light_2.Kitchen_Light_2
+[2023.09.24-19.46.28:839][604]LogStaticMesh: Warning: Kitchen_Light_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:839][604]LogStaticMesh: Warning: Kitchen_Light_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:854][604]LogStaticMesh: Display: Building static mesh Kitchen_Fridge...
+[2023.09.24-19.46.28:855][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.46.28:856][604]LogStaticMesh: Warning: Kitchen_Fridge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:856][604]LogStaticMesh: Warning: Kitchen_Fridge has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:863][604]LogStaticMesh: Display: Building static mesh Kitchen_Fridge_Door_R...
+[2023.09.24-19.46.28:865][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.46.28:865][604]LogStaticMesh: Warning: Kitchen_Fridge_Door_R has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:865][604]LogStaticMesh: Warning: Kitchen_Fridge_Door_R has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:872][604]LogStaticMesh: Display: Building static mesh Kitchen_Fridge_Door_L...
+[2023.09.24-19.46.28:873][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Fridge_Door_L.Kitchen_Fridge_Door_L
+[2023.09.24-19.46.28:873][604]LogStaticMesh: Warning: Kitchen_Fridge_Door_L has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:873][604]LogStaticMesh: Warning: Kitchen_Fridge_Door_L has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:881][604]LogStaticMesh: Display: Building static mesh Kitchen_Freezer_Drawer...
+[2023.09.24-19.46.28:883][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Freezer_Drawer.Kitchen_Freezer_Drawer
+[2023.09.24-19.46.28:883][604]LogStaticMesh: Warning: Kitchen_Freezer_Drawer has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:883][604]LogStaticMesh: Warning: Kitchen_Freezer_Drawer has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:893][604]LogFbx: Display: Triangulating static mesh Hedges
+[2023.09.24-19.46.28:894][604]LogStaticMesh: Display: Building static mesh Kitchen_Hedges...
+[2023.09.24-19.46.28:896][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Hedges.Kitchen_Hedges
+[2023.09.24-19.46.28:908][604]LogStaticMesh: Display: Building static mesh Kitchen_Grass...
+[2023.09.24-19.46.28:909][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Grass.Kitchen_Grass
+[2023.09.24-19.46.28:909][604]LogStaticMesh: Warning: Kitchen_Grass has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:909][604]LogStaticMesh: Warning: Kitchen_Grass has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:924][604]LogFbx: Display: Triangulating static mesh Tree 1
+[2023.09.24-19.46.28:926][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_1...
+[2023.09.24-19.46.28:928][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_1.Kitchen_Tree_1
+[2023.09.24-19.46.28:928][604]LogStaticMesh: Warning: Kitchen_Tree_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:928][604]LogStaticMesh: Warning: Kitchen_Tree_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:934][604]LogFbx: Display: Triangulating static mesh Tree 2
+[2023.09.24-19.46.28:936][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_2...
+[2023.09.24-19.46.28:937][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_2.Kitchen_Tree_2
+[2023.09.24-19.46.28:938][604]LogStaticMesh: Warning: Kitchen_Tree_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:938][604]LogStaticMesh: Warning: Kitchen_Tree_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:945][604]LogFbx: Display: Triangulating static mesh Tree 3
+[2023.09.24-19.46.28:946][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_3...
+[2023.09.24-19.46.28:948][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_3.Kitchen_Tree_3
+[2023.09.24-19.46.28:948][604]LogStaticMesh: Warning: Kitchen_Tree_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:948][604]LogStaticMesh: Warning: Kitchen_Tree_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:955][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_4...
+[2023.09.24-19.46.28:957][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_4.Kitchen_Tree_4
+[2023.09.24-19.46.28:957][604]LogStaticMesh: Warning: Kitchen_Tree_4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:957][604]LogStaticMesh: Warning: Kitchen_Tree_4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:965][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_5...
+[2023.09.24-19.46.28:966][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_5.Kitchen_Tree_5
+[2023.09.24-19.46.28:967][604]LogStaticMesh: Warning: Kitchen_Tree_5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:967][604]LogStaticMesh: Warning: Kitchen_Tree_5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:974][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_6...
+[2023.09.24-19.46.28:975][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_6.Kitchen_Tree_6
+[2023.09.24-19.46.28:976][604]LogStaticMesh: Warning: Kitchen_Tree_6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:976][604]LogStaticMesh: Warning: Kitchen_Tree_6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:983][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_7...
+[2023.09.24-19.46.28:984][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_7.Kitchen_Tree_7
+[2023.09.24-19.46.28:985][604]LogStaticMesh: Warning: Kitchen_Tree_7 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:985][604]LogStaticMesh: Warning: Kitchen_Tree_7 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.28:991][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_8...
+[2023.09.24-19.46.28:994][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_8.Kitchen_Tree_8
+[2023.09.24-19.46.28:994][604]LogStaticMesh: Warning: Kitchen_Tree_8 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.28:994][604]LogStaticMesh: Warning: Kitchen_Tree_8 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.29:002][604]LogStaticMesh: Display: Building static mesh Kitchen_Tree_9...
+[2023.09.24-19.46.29:004][604]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1/Kitchen_Tree_9.Kitchen_Tree_9
+[2023.09.24-19.46.29:004][604]LogStaticMesh: Warning: Kitchen_Tree_9 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.46.29:004][604]LogStaticMesh: Warning: Kitchen_Tree_9 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Island has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Island has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Stool_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Stool_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Ceiling has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Ceiling has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Back_Wall has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Back_Wall has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Counter has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Counter has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Stool_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Stool_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Stool_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Stool_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Door has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Window_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Window_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Window_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Window_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Window_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Window_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Light_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Light_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Light_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:025][604]FBXImport: Warning: Kitchen_Light_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Fridge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Fridge has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Fridge_Door_R has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Fridge_Door_R has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Fridge_Door_L has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Fridge_Door_L has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Freezer_Drawer has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Freezer_Drawer has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Grass has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Grass has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_7 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_7 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_8 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_8 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_9 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.46.29:026][604]FBXImport: Warning: Kitchen_Tree_9 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: ================================================
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Total job queries 136, among them cache hits 114 (83.82%)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Tracking 19 distinct input hashes that result in 16 distinct outputs (84.21%)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: RAM used: 459.17 KiB of 819.20 MiB budget. Usage: 0.05%
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Shaders Compiled: 19
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Jobs assigned 22, completed 19 (86.36%)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Average time worker was idle: 1562.03 s
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Job execution time: average 0.41 s, max 0.56 s
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Job life time (pending + execution): average 0.46 s, max 0.62
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Shader code size: average 41.124 KiB, min 29.711 KiB, max 61.465 KiB
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.20 s
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Average processing rate: 8.63 jobs/sec
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Total thread time: 4.077 s
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Total thread preprocess time: 0.506 s
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Percentage time preprocessing: 12.40%
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Effective parallelization: 1.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.75% of total time (compiled    2 times, average 0.22 sec, max 0.28 sec, min 0.16 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.49% of total time (compiled    2 times, average 0.21 sec, max 0.29 sec, min 0.13 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.75% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 6.66% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.55% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.46.29:547][617]LogShaderCompilers: Display: ================================================
+[2023.09.24-19.46.47:546][693]LogSlate: Window 'Message Log' being destroyed
+[2023.09.24-19.46.47:552][693]LogSlate: Window 'Message Log' being destroyed
+[2023.09.24-19.47.07:493][879]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.47.07:493][879]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.47.07:493][879]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_6
+[2023.09.24-19.47.08:723][949]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.47.08:723][949]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.47.08:724][949]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1/Kitchen_Fridge.Kitchen_Fridge as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_7
+[2023.09.24-19.47.21:785][725]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0, from: Addition to navoctree)
+[2023.09.24-19.47.21:819][727]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0, from: Remove from navoctree)
+[2023.09.24-19.47.28:545][127]LogEditorViewport: Clicking Background
+[2023.09.24-19.47.29:597][189]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.29:597][189]LogEditorTransaction: Undo Clicking Background
+[2023.09.24-19.47.30:064][203]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.30:064][203]LogEditorTransaction: Undo Scale Elements
+[2023.09.24-19.47.35:200][503]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.35:200][503]LogEditorTransaction: Undo Move Elements
+[2023.09.24-19.47.35:578][516]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.35:578][516]LogEditorTransaction: Undo Move Elements
+[2023.09.24-19.47.35:945][533]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.35:945][533]LogEditorTransaction: Undo Create Actors
+[2023.09.24-19.47.36:457][562]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.36:457][562]LogEditorTransaction: Undo Clicking Background
+[2023.09.24-19.47.36:993][591]Cmd: TRANSACTION UNDO
+[2023.09.24-19.47.36:993][591]LogEditorTransaction: Undo Edit Spawned Item
+[2023.09.24-19.47.59:335][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.24-19.48.01:807][902]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.24-19.48.33:139][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.09.24-19.48.37:222][674]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.24-19.48.37:259][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.24-19.48.37:272][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.09.24-19.48.37:282][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.09.24-19.48.49:239][342]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.24-19.48.49:249][342]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.24-19.48.49:256][343]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.24-19.49.04:591][180]LogContentBrowser: Attempting asset rename: NewFolder -> Level1Environment
+[2023.09.24-19.49.04:592][180]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.24-19.49.10:000][403]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jante/Downloads/Kitchen.fbx)
+[2023.09.24-19.49.10:004][403]LogFbx: Loading FBX Scene from ../../../../../../Users/Jante/Downloads/Kitchen.fbx
+[2023.09.24-19.49.10:013][403]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.24-19.49.47:949][403]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.09.24-19.49.48:053][403]LogStaticMesh: Display: Building static mesh Kitchen_Island...
+[2023.09.24-19.49.48:056][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Island.Kitchen_Island
+[2023.09.24-19.49.48:056][403]LogStaticMesh: Warning: Kitchen_Island has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:056][403]LogStaticMesh: Warning: Kitchen_Island has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:068][403]LogFbx: Display: Triangulating static mesh Stool 1
+[2023.09.24-19.49.48:070][403]LogStaticMesh: Display: Building static mesh Kitchen_Stool_1...
+[2023.09.24-19.49.48:072][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Stool_1.Kitchen_Stool_1
+[2023.09.24-19.49.48:072][403]LogStaticMesh: Warning: Kitchen_Stool_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:072][403]LogStaticMesh: Warning: Kitchen_Stool_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:084][403]LogFbx: Display: Triangulating static mesh Ceiling
+[2023.09.24-19.49.48:085][403]LogStaticMesh: Display: Building static mesh Kitchen_Ceiling...
+[2023.09.24-19.49.48:087][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Ceiling.Kitchen_Ceiling
+[2023.09.24-19.49.48:087][403]LogStaticMesh: Warning: Kitchen_Ceiling has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:087][403]LogStaticMesh: Warning: Kitchen_Ceiling has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:096][403]LogFbx: Display: Triangulating static mesh Floor
+[2023.09.24-19.49.48:097][403]LogStaticMesh: Display: Building static mesh Kitchen_Floor...
+[2023.09.24-19.49.48:099][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Floor.Kitchen_Floor
+[2023.09.24-19.49.48:110][403]LogStaticMesh: Display: Building static mesh Kitchen_Back_Wall...
+[2023.09.24-19.49.48:112][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Back_Wall.Kitchen_Back_Wall
+[2023.09.24-19.49.48:113][403]LogStaticMesh: Warning: Kitchen_Back_Wall has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:113][403]LogStaticMesh: Warning: Kitchen_Back_Wall has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:122][403]LogStaticMesh: Display: Building static mesh Kitchen_Counter...
+[2023.09.24-19.49.48:128][403]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Level1Environment/Kitchen_Counter.Kitchen_Counter
+[2023.09.24-19.49.48:128][403]LogStaticMesh: Warning: Kitchen_Counter has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:128][403]LogStaticMesh: Warning: Kitchen_Counter has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:137][403]LogStaticMesh: Display: Building static mesh Kitchen_Left_Wall...
+[2023.09.24-19.49.48:139][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Left_Wall.Kitchen_Left_Wall
+[2023.09.24-19.49.48:151][403]LogStaticMesh: Display: Building static mesh Kitchen_Stool_2...
+[2023.09.24-19.49.48:154][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Stool_2.Kitchen_Stool_2
+[2023.09.24-19.49.48:154][403]LogStaticMesh: Warning: Kitchen_Stool_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:154][403]LogStaticMesh: Warning: Kitchen_Stool_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:164][403]LogStaticMesh: Display: Building static mesh Kitchen_Stool_3...
+[2023.09.24-19.49.48:167][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Stool_3.Kitchen_Stool_3
+[2023.09.24-19.49.48:167][403]LogStaticMesh: Warning: Kitchen_Stool_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:167][403]LogStaticMesh: Warning: Kitchen_Stool_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:182][403]LogStaticMesh: Display: Building static mesh Kitchen_Door...
+[2023.09.24-19.49.48:185][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Door.Kitchen_Door
+[2023.09.24-19.49.48:185][403]LogStaticMesh: Warning: Kitchen_Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:185][403]LogStaticMesh: Warning: Kitchen_Door has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:193][403]LogFbx: Display: Triangulating static mesh Window 1
+[2023.09.24-19.49.48:195][403]LogStaticMesh: Display: Building static mesh Kitchen_Window_1...
+[2023.09.24-19.49.48:197][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Window_1.Kitchen_Window_1
+[2023.09.24-19.49.48:198][403]LogStaticMesh: Warning: Kitchen_Window_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:198][403]LogStaticMesh: Warning: Kitchen_Window_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:208][403]LogStaticMesh: Display: Building static mesh Kitchen_Window_2...
+[2023.09.24-19.49.48:210][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Window_2.Kitchen_Window_2
+[2023.09.24-19.49.48:210][403]LogStaticMesh: Warning: Kitchen_Window_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:210][403]LogStaticMesh: Warning: Kitchen_Window_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:218][403]LogStaticMesh: Display: Building static mesh Kitchen_Window_3...
+[2023.09.24-19.49.48:220][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Window_3.Kitchen_Window_3
+[2023.09.24-19.49.48:220][403]LogStaticMesh: Warning: Kitchen_Window_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:220][403]LogStaticMesh: Warning: Kitchen_Window_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:230][403]LogStaticMesh: Display: Building static mesh Kitchen_Window_4...
+[2023.09.24-19.49.48:233][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Window_4.Kitchen_Window_4
+[2023.09.24-19.49.48:243][403]LogFbx: Display: Triangulating static mesh Faucet
+[2023.09.24-19.49.48:245][403]LogStaticMesh: Display: Building static mesh Kitchen_Faucet...
+[2023.09.24-19.49.48:246][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Faucet.Kitchen_Faucet
+[2023.09.24-19.49.48:254][403]LogFbx: Display: Triangulating static mesh Faucet Handle
+[2023.09.24-19.49.48:255][403]LogStaticMesh: Display: Building static mesh Kitchen_Faucet_Handle...
+[2023.09.24-19.49.48:256][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Faucet_Handle.Kitchen_Faucet_Handle
+[2023.09.24-19.49.48:272][403]LogFbx: Display: Triangulating static mesh Light 1
+[2023.09.24-19.49.48:273][403]LogStaticMesh: Display: Building static mesh Kitchen_Light_1...
+[2023.09.24-19.49.48:275][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Light_1.Kitchen_Light_1
+[2023.09.24-19.49.48:275][403]LogStaticMesh: Warning: Kitchen_Light_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:275][403]LogStaticMesh: Warning: Kitchen_Light_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:282][403]LogStaticMesh: Display: Building static mesh Kitchen_Light_2...
+[2023.09.24-19.49.48:284][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Light_2.Kitchen_Light_2
+[2023.09.24-19.49.48:284][403]LogStaticMesh: Warning: Kitchen_Light_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:284][403]LogStaticMesh: Warning: Kitchen_Light_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:300][403]LogStaticMesh: Display: Building static mesh Kitchen_Fridge...
+[2023.09.24-19.49.48:301][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.49.48:301][403]LogStaticMesh: Warning: Kitchen_Fridge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:301][403]LogStaticMesh: Warning: Kitchen_Fridge has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:309][403]LogStaticMesh: Display: Building static mesh Kitchen_Fridge_Door_R...
+[2023.09.24-19.49.48:310][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.49.48:310][403]LogStaticMesh: Warning: Kitchen_Fridge_Door_R has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:310][403]LogStaticMesh: Warning: Kitchen_Fridge_Door_R has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:318][403]LogStaticMesh: Display: Building static mesh Kitchen_Fridge_Door_L...
+[2023.09.24-19.49.48:320][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Fridge_Door_L.Kitchen_Fridge_Door_L
+[2023.09.24-19.49.48:320][403]LogStaticMesh: Warning: Kitchen_Fridge_Door_L has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:320][403]LogStaticMesh: Warning: Kitchen_Fridge_Door_L has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:328][403]LogStaticMesh: Display: Building static mesh Kitchen_Freezer_Drawer...
+[2023.09.24-19.49.48:331][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Freezer_Drawer.Kitchen_Freezer_Drawer
+[2023.09.24-19.49.48:331][403]LogStaticMesh: Warning: Kitchen_Freezer_Drawer has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:331][403]LogStaticMesh: Warning: Kitchen_Freezer_Drawer has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:342][403]LogFbx: Display: Triangulating static mesh Hedges
+[2023.09.24-19.49.48:343][403]LogStaticMesh: Display: Building static mesh Kitchen_Hedges...
+[2023.09.24-19.49.48:345][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Hedges.Kitchen_Hedges
+[2023.09.24-19.49.48:356][403]LogStaticMesh: Display: Building static mesh Kitchen_Grass...
+[2023.09.24-19.49.48:357][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Grass.Kitchen_Grass
+[2023.09.24-19.49.48:358][403]LogStaticMesh: Warning: Kitchen_Grass has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:358][403]LogStaticMesh: Warning: Kitchen_Grass has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:374][403]LogFbx: Display: Triangulating static mesh Tree 1
+[2023.09.24-19.49.48:376][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_1...
+[2023.09.24-19.49.48:378][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_1.Kitchen_Tree_1
+[2023.09.24-19.49.48:379][403]LogStaticMesh: Warning: Kitchen_Tree_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:379][403]LogStaticMesh: Warning: Kitchen_Tree_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:387][403]LogFbx: Display: Triangulating static mesh Tree 2
+[2023.09.24-19.49.48:389][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_2...
+[2023.09.24-19.49.48:390][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_2.Kitchen_Tree_2
+[2023.09.24-19.49.48:390][403]LogStaticMesh: Warning: Kitchen_Tree_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:390][403]LogStaticMesh: Warning: Kitchen_Tree_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:399][403]LogFbx: Display: Triangulating static mesh Tree 3
+[2023.09.24-19.49.48:402][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_3...
+[2023.09.24-19.49.48:405][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_3.Kitchen_Tree_3
+[2023.09.24-19.49.48:405][403]LogStaticMesh: Warning: Kitchen_Tree_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:405][403]LogStaticMesh: Warning: Kitchen_Tree_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:415][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_4...
+[2023.09.24-19.49.48:419][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_4.Kitchen_Tree_4
+[2023.09.24-19.49.48:419][403]LogStaticMesh: Warning: Kitchen_Tree_4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:419][403]LogStaticMesh: Warning: Kitchen_Tree_4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:428][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_5...
+[2023.09.24-19.49.48:430][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_5.Kitchen_Tree_5
+[2023.09.24-19.49.48:430][403]LogStaticMesh: Warning: Kitchen_Tree_5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:430][403]LogStaticMesh: Warning: Kitchen_Tree_5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:440][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_6...
+[2023.09.24-19.49.48:444][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_6.Kitchen_Tree_6
+[2023.09.24-19.49.48:444][403]LogStaticMesh: Warning: Kitchen_Tree_6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:444][403]LogStaticMesh: Warning: Kitchen_Tree_6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:454][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_7...
+[2023.09.24-19.49.48:456][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_7.Kitchen_Tree_7
+[2023.09.24-19.49.48:457][403]LogStaticMesh: Warning: Kitchen_Tree_7 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:457][403]LogStaticMesh: Warning: Kitchen_Tree_7 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:467][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_8...
+[2023.09.24-19.49.48:470][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_8.Kitchen_Tree_8
+[2023.09.24-19.49.48:470][403]LogStaticMesh: Warning: Kitchen_Tree_8 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:470][403]LogStaticMesh: Warning: Kitchen_Tree_8 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:481][403]LogStaticMesh: Display: Building static mesh Kitchen_Tree_9...
+[2023.09.24-19.49.48:484][403]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Level1Environment/Kitchen_Tree_9.Kitchen_Tree_9
+[2023.09.24-19.49.48:484][403]LogStaticMesh: Warning: Kitchen_Tree_9 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.24-19.49.48:484][403]LogStaticMesh: Warning: Kitchen_Tree_9 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Island has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Island has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Stool_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Stool_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Ceiling has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Ceiling has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Back_Wall has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Back_Wall has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Counter has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Counter has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Stool_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Stool_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Stool_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Stool_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Door has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Window_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Window_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Window_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Window_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Window_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:644][403]FBXImport: Warning: Kitchen_Window_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Light_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Light_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Light_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Light_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Fridge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Fridge has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Fridge_Door_R has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Fridge_Door_R has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Fridge_Door_L has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Fridge_Door_L has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Freezer_Drawer has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Freezer_Drawer has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Grass has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Grass has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_6 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_7 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_7 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_8 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_8 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_9 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.24-19.49.48:645][403]FBXImport: Warning: Kitchen_Tree_9 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.24-19.49.51:714][572]LogSlate: Window 'Message Log' being destroyed
+[2023.09.24-19.49.51:718][572]LogSlate: Window 'Message Log' being destroyed
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: ================================================
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Total job queries 224, among them cache hits 198 (88.39%)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Tracking 24 distinct input hashes that result in 20 distinct outputs (83.33%)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: RAM used: 578.33 KiB of 819.20 MiB budget. Usage: 0.07%
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Shaders Compiled: 24
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Jobs assigned 24, completed 24 (100%)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Average time worker was idle: 1344.28 s
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Job execution time: average 0.40 s, max 0.56 s
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Job life time (pending + execution): average 0.45 s, max 0.62
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Shader code size: average 40.913 KiB, min 29.711 KiB, max 61.465 KiB
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.83 s
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Average processing rate: 8.48 jobs/sec
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Total thread time: 5.058 s
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Total thread preprocess time: 0.612 s
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Percentage time preprocessing: 12.09%
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Effective parallelization: 1.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.80% of total time (compiled    3 times, average 0.22 sec, max 0.29 sec, min 0.13 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.45% of total time (compiled    3 times, average 0.21 sec, max 0.28 sec, min 0.16 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.22% of total time (compiled    2 times, average 0.23 sec, max 0.28 sec, min 0.19 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.53% of total time (compiled    2 times, average 0.22 sec, max 0.22 sec, min 0.21 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 7.02% of total time (compiled    2 times, average 0.18 sec, max 0.18 sec, min 0.17 sec)
+[2023.09.24-19.49.53:269][662]LogShaderCompilers: Display: ================================================
+[2023.09.24-19.50.11:690][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.50.11:690][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.50.11:691][753]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_9
+[2023.09.24-19.50.16:102][ 14]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.50.16:102][ 14]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.50.16:103][ 14]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_10
+[2023.09.24-19.51.21:121][891]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.51.21:121][891]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.51.21:121][891]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_11
+[2023.09.24-19.51.24:373][ 82]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.51.24:373][ 82]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.51.24:374][ 82]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_12
+[2023.09.24-19.51.27:602][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.51.27:602][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.51.27:603][274]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R as actor: StaticMeshActor /Game/Levels/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_13
+[2023.09.24-19.51.29:249][368]Cmd: DELETE
+[2023.09.24-19.51.29:249][368]Cmd: ACTOR DELETE
+[2023.09.24-19.51.29:252][368]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.24-19.51.29:265][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.09.24-19.51.29:272][368]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.09.24-19.51.31:093][474]Cmd: DELETE
+[2023.09.24-19.51.31:093][474]Cmd: ACTOR DELETE
+[2023.09.24-19.51.31:094][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.24-19.51.31:107][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.24-19.51.31:110][474]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.09.24-19.52.14:824][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.09.24-19.52.17:061][578]LogSlate: Window 'Save Content' being destroyed
+[2023.09.24-19.52.17:075][578]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.24-19.52.17:172][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.24-19.52.17:179][578]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2023.09.24-19.52.17:180][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/MainLevelA21FEECC47D66FA3F47ACDB78A0A5AD9.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Levels/MainLevel.umap'
+[2023.09.24-19.52.17:185][578]LogFileHelpers: All files are already saved.
+[2023.09.24-19.52.17:185][578]LogFileHelpers: Saving map 'MainLevel' took 0.038
+[2023.09.24-19.52.17:841][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Black_Wood
+[2023.09.24-19.52.17:841][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Black_Wood11DF148C464807953B2D088DA1DB10D7.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Black_Wood.uasset'
+[2023.09.24-19.52.17:869][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Ceiling
+[2023.09.24-19.52.17:869][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Ceiling27954FB746A5DAC553BD0485E16DA7E6.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Ceiling.uasset'
+[2023.09.24-19.52.17:891][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Drop_Light_Cord
+[2023.09.24-19.52.17:891][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Drop_Light_CordB5DD7E6940CB54EB0E9EED96D42D12FA.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Drop_Light_Cord.uasset'
+[2023.09.24-19.52.17:911][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Drop_Light_Shade
+[2023.09.24-19.52.17:911][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Drop_Light_ShadeB996A1694D2225D2EC551EA118703535.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Drop_Light_Shade.uasset'
+[2023.09.24-19.52.17:933][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Fridge_Inside
+[2023.09.24-19.52.17:933][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Fridge_Inside4139991C4971F0B693696D9FB8900296.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Fridge_Inside.uasset'
+[2023.09.24-19.52.17:953][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Fridge_Outside
+[2023.09.24-19.52.17:953][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Fridge_Outside071ECD8A4D00EB969BC4A5B7DBF70EE1.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Fridge_Outside.uasset'
+[2023.09.24-19.52.17:973][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Level1Environment/Glass" FILE="../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Glass.uasset" SILENT=true
+[2023.09.24-19.52.17:975][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Glass
+[2023.09.24-19.52.17:975][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Glass64F81E934FD331FEEA7D9987C837D752.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Glass.uasset'
+[2023.09.24-19.52.17:996][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Level1Environment/Grass" FILE="../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Grass.uasset" SILENT=true
+[2023.09.24-19.52.17:998][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Grass
+[2023.09.24-19.52.17:998][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/GrassFC7162FD401F71B7A3809DA83416B13B.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Grass.uasset'
+[2023.09.24-19.52.18:019][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Level1Environment/Hedge" FILE="../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Hedge.uasset" SILENT=true
+[2023.09.24-19.52.18:019][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Hedge
+[2023.09.24-19.52.18:019][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Hedge9ECD4BA6454D70B165D2BDB9375049D5.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Hedge.uasset'
+[2023.09.24-19.52.18:037][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Back_Wall
+[2023.09.24-19.52.18:038][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Back_Wall2959D008473765DEE8B52888557C13D6.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Back_Wall.uasset'
+[2023.09.24-19.52.18:054][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Ceiling
+[2023.09.24-19.52.18:054][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Ceiling468189A34B0A7B87910621AAF3F3D590.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Ceiling.uasset'
+[2023.09.24-19.52.18:071][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Counter
+[2023.09.24-19.52.18:071][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_CounterD7D3867540B2D38FDC8809A66B89BF46.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Counter.uasset'
+[2023.09.24-19.52.18:088][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Door
+[2023.09.24-19.52.18:088][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Door981B80644DAE2A9C19FA3EBCF26546A0.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Door.uasset'
+[2023.09.24-19.52.18:104][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Faucet
+[2023.09.24-19.52.18:104][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Faucet3C9025ED4263781C7F9CFD9B9ECFC505.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Faucet.uasset'
+[2023.09.24-19.52.18:119][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Faucet_Handle
+[2023.09.24-19.52.18:119][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Faucet_Handle28B8BADD4D8D486E4E4DEF8E0CD0E3AC.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Faucet_Handle.uasset'
+[2023.09.24-19.52.18:136][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Floor
+[2023.09.24-19.52.18:136][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Floor2E0953C2450E49E2435C7AA57D7AFD35.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Floor.uasset'
+[2023.09.24-19.52.18:151][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Freezer_Drawer
+[2023.09.24-19.52.18:151][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Freezer_DrawerFEB2897144F82D641D8FC99E5D40C7C6.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Freezer_Drawer.uasset'
+[2023.09.24-19.52.18:166][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Fridge
+[2023.09.24-19.52.18:166][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Fridge764DEB2942703E1FA1D046AA477819F4.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Fridge.uasset'
+[2023.09.24-19.52.18:182][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Fridge_Door_L
+[2023.09.24-19.52.18:182][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Fridge_Door_L3CABD1704E3DDD27603939BC3F4867E3.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Fridge_Door_L.uasset'
+[2023.09.24-19.52.18:197][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Fridge_Door_R
+[2023.09.24-19.52.18:197][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Fridge_Door_RC602E9154D2D73F98FBA38972ED1C802.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Fridge_Door_R.uasset'
+[2023.09.24-19.52.18:214][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Grass
+[2023.09.24-19.52.18:214][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Grass786418844D02D30C184C3988EF3E18EA.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Grass.uasset'
+[2023.09.24-19.52.18:229][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Hedges
+[2023.09.24-19.52.18:229][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Hedges085436374BB93B9EA3F541A598BC86CF.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Hedges.uasset'
+[2023.09.24-19.52.18:248][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Island
+[2023.09.24-19.52.18:248][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Island621D71E2405809C45C7444ABB560B64E.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Island.uasset'
+[2023.09.24-19.52.18:264][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Left_Wall
+[2023.09.24-19.52.18:264][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Left_Wall3A15EC584474CA2274CE0594467B83B7.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Left_Wall.uasset'
+[2023.09.24-19.52.18:280][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Light_1
+[2023.09.24-19.52.18:280][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Light_14031AE894CB4EEF15B370E88BF9CB964.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Light_1.uasset'
+[2023.09.24-19.52.18:295][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Light_2
+[2023.09.24-19.52.18:295][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Light_28F1215DD4C4C088FC1B6E88D3F23C1BB.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Light_2.uasset'
+[2023.09.24-19.52.18:312][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Stool_1
+[2023.09.24-19.52.18:312][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Stool_1BE0867D94AB2BDF2023BF29277A39CDA.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Stool_1.uasset'
+[2023.09.24-19.52.18:326][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Stool_2
+[2023.09.24-19.52.18:326][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Stool_266830E9F46335A15D951D2B6F9D6E2F3.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Stool_2.uasset'
+[2023.09.24-19.52.18:336][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Stool_3
+[2023.09.24-19.52.18:336][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Stool_3399DB463428EE586C6A0F6A130BFA195.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Stool_3.uasset'
+[2023.09.24-19.52.18:346][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_1
+[2023.09.24-19.52.18:346][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_1A5112A4A417B92EB37F18F971FD93AB0.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_1.uasset'
+[2023.09.24-19.52.18:357][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_2
+[2023.09.24-19.52.18:357][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_27307148249716C2A9A9978BA220E07D6.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_2.uasset'
+[2023.09.24-19.52.18:370][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_3
+[2023.09.24-19.52.18:370][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_3FD65C66846E8F6ECD60A76B8D0584192.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_3.uasset'
+[2023.09.24-19.52.18:380][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_4
+[2023.09.24-19.52.18:380][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_451F17E654EAE3CE9DBAF808383A67FCF.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_4.uasset'
+[2023.09.24-19.52.18:396][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_5
+[2023.09.24-19.52.18:396][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_584942EE54671F6FCA1DA8FA5FC5F42F3.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_5.uasset'
+[2023.09.24-19.52.18:406][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_6
+[2023.09.24-19.52.18:406][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_62E168EA6474A5127B4B166AF3A334F31.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_6.uasset'
+[2023.09.24-19.52.18:417][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_7
+[2023.09.24-19.52.18:417][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_7BE392E1B494A285D52E3948D2D11E904.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_7.uasset'
+[2023.09.24-19.52.18:429][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_8
+[2023.09.24-19.52.18:429][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_88C47C60640D08AF51B2C48BDAA06C279.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_8.uasset'
+[2023.09.24-19.52.18:440][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Tree_9
+[2023.09.24-19.52.18:440][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Tree_9A51771614BB77A0A9779E787B6CA13B2.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Tree_9.uasset'
+[2023.09.24-19.52.18:451][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Window_1
+[2023.09.24-19.52.18:451][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Window_18776E46A426B1236DEABDF86DC86D40F.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Window_1.uasset'
+[2023.09.24-19.52.18:463][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Window_2
+[2023.09.24-19.52.18:463][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Window_26406C75E461A3CE32329B5BAF4604C5D.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Window_2.uasset'
+[2023.09.24-19.52.18:473][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Window_3
+[2023.09.24-19.52.18:473][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Window_3C4C97C71471E7F98246B009CBAE731A9.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Window_3.uasset'
+[2023.09.24-19.52.18:483][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Kitchen_Window_4
+[2023.09.24-19.52.18:483][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Kitchen_Window_4EA6672224866EBBA47DC889FEF8153BA.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Kitchen_Window_4.uasset'
+[2023.09.24-19.52.18:502][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Leaves
+[2023.09.24-19.52.18:502][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/LeavesF89C1EEB4077C91F6DD3DE80D476F077.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Leaves.uasset'
+[2023.09.24-19.52.18:519][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Level1Environment/Metal" FILE="../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Metal.uasset" SILENT=true
+[2023.09.24-19.52.18:521][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Metal
+[2023.09.24-19.52.18:521][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Metal27BD10B24BDA234F716E1BAE474860DC.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Metal.uasset'
+[2023.09.24-19.52.18:540][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Tree_Trunk
+[2023.09.24-19.52.18:540][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Tree_TrunkEB09B9C449C66261FA1013BDD1D60E5B.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Tree_Trunk.uasset'
+[2023.09.24-19.52.18:556][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Level1Environment/Walls" FILE="../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Walls.uasset" SILENT=true
+[2023.09.24-19.52.18:557][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Walls
+[2023.09.24-19.52.18:557][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Walls7F382F4042B00A6A38E6D6A97A05D0E8.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Walls.uasset'
+[2023.09.24-19.52.18:574][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/White_Marble
+[2023.09.24-19.52.18:574][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/White_MarbleDCAE592248B95965DF5966BD683D6BDA.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/White_Marble.uasset'
+[2023.09.24-19.52.18:589][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Level1Environment/Wood" FILE="../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Wood.uasset" SILENT=true
+[2023.09.24-19.52.18:591][578]LogSavePackage: Moving output files for package: /Game/Models/Level1Environment/Wood
+[2023.09.24-19.52.18:591][578]LogSavePackage: Moving '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Saved/Wood9C8583F34AE556D8B94FA983B7E0B4AA.tmp' to '../../../../../../Users/Jante/Paranormal Prankster/paranormal-prankster/Content/Models/Level1Environment/Wood.uasset'
+[2023.09.24-19.52.18:600][578]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.52 sec (total: 4.09 sec)
+[2023.09.24-19.52.18:606][578]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Black_Wood.Black_Wood
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Ceiling.Ceiling
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Drop_Light_Cord.Drop_Light_Cord
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Drop_Light_Shade.Drop_Light_Shade
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Fridge_Inside.Fridge_Inside
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Fridge_Outside.Fridge_Outside
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Glass.Glass
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Grass.Grass
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Hedge.Hedge
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Back_Wall.Kitchen_Back_Wall
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Ceiling.Kitchen_Ceiling
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Counter.Kitchen_Counter
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Door.Kitchen_Door
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Faucet.Kitchen_Faucet
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Faucet_Handle.Kitchen_Faucet_Handle
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Floor.Kitchen_Floor
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Freezer_Drawer.Kitchen_Freezer_Drawer
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge.Kitchen_Fridge
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_L.Kitchen_Fridge_Door_L
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Fridge_Door_R.Kitchen_Fridge_Door_R
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Grass.Kitchen_Grass
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Hedges.Kitchen_Hedges
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Island.Kitchen_Island
+[2023.09.24-19.52.18:606][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Left_Wall.Kitchen_Left_Wall
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Light_1.Kitchen_Light_1
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Light_2.Kitchen_Light_2
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Stool_1.Kitchen_Stool_1
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Stool_2.Kitchen_Stool_2
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Stool_3.Kitchen_Stool_3
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_1.Kitchen_Tree_1
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_2.Kitchen_Tree_2
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_3.Kitchen_Tree_3
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_4.Kitchen_Tree_4
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_5.Kitchen_Tree_5
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_6.Kitchen_Tree_6
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_7.Kitchen_Tree_7
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_8.Kitchen_Tree_8
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Tree_9.Kitchen_Tree_9
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Window_1.Kitchen_Window_1
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Window_2.Kitchen_Window_2
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Window_3.Kitchen_Window_3
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Level1Environment/Kitchen_Window_4.Kitchen_Window_4
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Leaves.Leaves
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Metal.Metal
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Tree_Trunk.Tree_Trunk
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Walls.Walls
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/White_Marble.White_Marble
+[2023.09.24-19.52.18:607][578]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level1Environment/Wood.Wood
